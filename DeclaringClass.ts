@@ -1,3 +1,4 @@
+//Khai báo phương thức trong class
 class Person{
     run(){
         console.log("is running....");
@@ -9,7 +10,8 @@ console.log(typeof Person);
 console.log(p1.run === Person.prototype.run);
 
 class PersonCtr{
-    constructor(name){
+    name: string;
+    constructor(name: string){
         this.name = name;
         console.log(this.name + " constructor");
     }

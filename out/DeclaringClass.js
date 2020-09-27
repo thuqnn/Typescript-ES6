@@ -1,4 +1,5 @@
 "use strict";
+//Khai báo phương thức trong class
 var Person = /** @class */ (function () {
     function Person() {
     }
